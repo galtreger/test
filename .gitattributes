@@ -1,1 +1,2 @@
-test/ merge=ours
+main_folder/* merge=ours
+main_file merge=ours
