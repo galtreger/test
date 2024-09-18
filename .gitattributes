@@ -1,2 +1,4 @@
-main_folder/* merge=ours
-main_file merge=ours
+main_to_remove/* merge=ours
+main_to_remove merge=ours
+main_to_modify/* merge=ours
+main_to_modify merge=ours
