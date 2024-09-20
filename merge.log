@@ -1,0 +1,31 @@
+2024-09-20 13:46:53 - Running pre-merge-commit hook
+2024-09-20 13:46:53 - Status after merge before commit: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   both_in_main_and_stacktic/file_without_conflict.txt
+	deleted:    only_in_main/file_without_conflict.txt
+	new file:   only_in_stacktic/file_without_conflict.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	merge.log
+2024-09-20 13:46:53 - Protected files list:
+2024-09-20 13:46:53 - Processing file: only_in_main/
+2024-09-20 13:46:53 - Status of only_in_main/: 'D  only_in_main/file_without_conflict.txt'
+2024-09-20 13:46:53 - only_in_main/ was deleted by merge, but should not be. Restoring it.
+2024-09-20 13:46:53 - Processing file: only_in_stacktic/
+2024-09-20 13:46:53 - Status of only_in_stacktic/: 'A  only_in_stacktic/file_without_conflict.txt'
+2024-09-20 13:46:53 - only_in_stacktic/ was added by merge, but should not be. Deleting it
+2024-09-20 13:46:53 - Processing file: both_in_main_and_stacktic/
+2024-09-20 13:46:53 - Status of both_in_main_and_stacktic/: 'M  both_in_main_and_stacktic/file_without_conflict.txt'
+2024-09-20 13:46:53 - both_in_main_and_stacktic/ was modified by merge, but should not be. Restoring it.
+2024-09-20 13:46:53 - Status post: On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	merge.log
+
+nothing added to commit but untracked files present (use "git add" to track)
